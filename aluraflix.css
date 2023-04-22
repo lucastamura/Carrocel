@@ -1,0 +1,41 @@
+body {
+  font-family: Poppins;
+  text-align: center;
+  background-color: #196F3D;
+}
+  
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #6082B6;
+  margin-top: 5px;
+}
+
+.container_todosFilmes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container_filme{
+    padding: 2%;
+    display: block;
+    max-width: 30%;
+  color: white;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}  
